@@ -1,0 +1,54 @@
+#new-item-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+#input-new {
+  margin-top: 5px;
+  padding: 3px;
+  width: 250px;
+  text-align: center;
+}
+
+#btn-add {
+  margin: 10px;
+  padding: 5px;
+  width: 50px;
+  background-color: orange;
+  color: white;
+  border-style: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.todo-items {
+  margin-top: 10px;
+  background-color: #d4d3d3;
+  height: 700px;
+  width: 700px;
+  list-style: none;
+  overflow-y: scroll;
+}
+
+.todo-item {
+  display: flex;
+  padding: 10px;
+  margin-top: 10px;
+  align-items: flex-start;
+  justify-content: space-between;
+  text-transform: uppercase;
+  border-bottom: 1px solid;
+}
+
+.todo-item button {
+  width: 100px;
+  background-color: orange;
+  color: white;
+  height: 40px;
+  border-style: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
